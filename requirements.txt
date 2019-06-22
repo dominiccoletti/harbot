@@ -1,0 +1,16 @@
+Flask
+Flask-SQLAlchemy
+gunicorn==19.6.0
+zalgoify>=1.0
+upsidedown
+pillow
+GroupyAPI
+beautifulsoup4
+praw
+tinytext
+
+cmake
+face_recognition
+scikit-image
+
+pytesseract
