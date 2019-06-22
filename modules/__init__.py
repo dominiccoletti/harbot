@@ -1,4 +1,3 @@
-from .countdown import Countdown
 from .zalgo import Zalgo
 from .flip import Flip
 from .groups import Groups
