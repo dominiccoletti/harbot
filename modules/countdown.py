@@ -15,8 +15,8 @@ class Countdown(Module):
         Event("FDOC", datetime.datetime(year=2019, month=9, day=3)),
         Event("Homecoming", datetime.datetime(year=2019, month=10, day=5)),
         Event("Fall Break", datetime.datetime(year=2019, month=10, day=14)),
-        Event("Thanksgiving Break Begins"), datetime.datetime(year=2019, month=11, day=27)),
-        Event("The Game"), datetime.datetime(year=2019, month=11, day=30)),
+        Event("Thanksgiving Break Begins", datetime.datetime(year=2019, month=11, day=27)),
+        Event("The Game", datetime.datetime(year=2019, month=11, day=30)),
     ]
 
     def get_event(self, name):
