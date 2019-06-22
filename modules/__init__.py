@@ -12,7 +12,7 @@ from .maria import Maria
 from .annie import Annie
 from .renee import Renee
 from .weather import Weather
-from .fightyalebot import Fightyalebot
+from .fightosu import Fightosu
 from .love import Love
 from .chose import Chose
 from .sad import Sad
