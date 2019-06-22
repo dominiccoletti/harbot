@@ -4,9 +4,9 @@ from .base import Module
 class Groups(Module):
     DESCRIPTION = "Get links to other admit groups"
     links = {
-        "Columbia University": "46422965/fy1wXH",  
-        "Yale University": "46649296/URP6KiXC",
         "University of Michigan": "46781389/hZehS1",
+        "Columbia University": "46422965/fy1wXH",
+        "Yale University": "46649296/URP6KiXC",
         "UNC Chapel Hill": "47712261/2K9zx7",
         "University of Virginia": "47680748/aLDXS1",
         "University of Miami": "48024399/XOwVQLZQ",

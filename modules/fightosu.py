@@ -3,8 +3,8 @@ import csv
 import random
 
 
-class Fightyalebot(Module):
-    DESCRIPTION = "Generate Elizabethan insults for our favorite chatbot"
+class Fightosu(Module):
+    DESCRIPTION = "Generate Elizabethan insults for our favorite school"
     primary_adjectives = []
     secondary_adjectives = []
     nouns = []
@@ -17,6 +17,6 @@ class Fightyalebot(Module):
                     self.primary_adjectives.append(row[0])
                     self.secondary_adjectives.append(row[1])
                     self.nouns.append(row[2])
-        return "Yalebot, thou {primary_adjective}, {secondary_adjective} {noun}!".format(primary_adjective=random.choice(self.primary_adjectives),
+        return "OSU, thou {primary_adjective}, {secondary_adjective} {noun}!".format(primary_adjective=random.choice(self.primary_adjectives),
                                                                                 secondary_adjective=random.choice(self.secondary_adjectives),
                                                                                 noun=random.choice(self.nouns))

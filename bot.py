@@ -57,7 +57,7 @@ commands = {
     "renee": modules.Renee(),
     "victor": modules.Victor(),
     "weather": modules.Weather(),
-    "fightyalebot": modules.Fightyalebot(),
+    "fightosu": modules.Fightosu(),
     "sad": modules.Sad(),
     "nato": modules.NATO(),
     "eightball": modules.EightBall(),

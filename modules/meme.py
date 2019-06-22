@@ -25,10 +25,6 @@ class Meme(Module, ImageUploader):
                 {"position": (350, 100), "center": False},
                 {"position": (350, 300), "center": False},
             ),
-            "columbiadrake": (
-                {"position": (350, 100), "center": False},
-                {"position": (350, 300), "center": False},
-            ),
             "juice": (
                 {"position": (327, 145)},
                 {"position": (373, 440), "wrap": 25, "font_size": self.SMALL_FONT_SIZE},

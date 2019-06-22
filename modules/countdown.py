@@ -10,10 +10,13 @@ class Event:
 
 
 class Countdown(Module):
-    DESCRIPTION = "Find out how little time's left until upcoming Columbia events"
+    DESCRIPTION = "Find out how little time's left until upcoming Michigan events"
     events = [
-        Event("NSOP begins", datetime.datetime(year=2019, month=8, day=25), datetime.timedelta(days=3)),
-        Event("orientation week begins", datetime.datetime(year=2019, month=8, day=20), datetime.timedelta(days=1)),
+        Event("FDOC", datetime.datetime(year=2019, month=9, day=3), datetime.timedelta(days=1)),
+        Event("Homecoming", datetime.datetime(year=2019, month=10, day=5), datetime.timedelta(days=1)),
+        Event("Fall Break", datetime.datetime(year=2019, month=10, day=14), datetime.timedelta(days=2)),
+        Event("Thanksgiving Break Begins"), datetime.datetime(year=2019, month=11, day=27), datetime.timedelta(days=1),
+        Event("The Game"), datetime.datetime(year=2019, month=11, day=30), datetime.timedelta(days=1)),
     ]
 
     def get_event(self, name):
@@ -51,7 +54,7 @@ class Countdown(Module):
 
     def time(self, event):
         """
-        Get time split into units until Bulldog Days.
+        Get time split into units until events.
         """
         now = datetime.datetime.now()
         if event is None:
