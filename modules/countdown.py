@@ -12,11 +12,11 @@ class Event:
 class Countdown(Module):
     DESCRIPTION = "Find out how little time's left until upcoming Michigan events"
     events = [
-        Event("FDOC", datetime.datetime(year=2019, month=9, day=3), datetime.timedelta(days=1)),
-        Event("Homecoming", datetime.datetime(year=2019, month=10, day=5), datetime.timedelta(days=1)),
-        Event("Fall Break", datetime.datetime(year=2019, month=10, day=14), datetime.timedelta(days=2)),
-        Event("Thanksgiving Break Begins"), datetime.datetime(year=2019, month=11, day=27), datetime.timedelta(days=1)),
-        Event("The Game"), datetime.datetime(year=2019, month=11, day=30), datetime.timedelta(days=1)),
+        Event("FDOC", datetime.datetime(year=2019, month=9, day=3)),
+        Event("Homecoming", datetime.datetime(year=2019, month=10, day=5)),
+        Event("Fall Break", datetime.datetime(year=2019, month=10, day=14)),
+        Event("Thanksgiving Break Begins"), datetime.datetime(year=2019, month=11, day=27)),
+        Event("The Game"), datetime.datetime(year=2019, month=11, day=30)),
     ]
 
     def get_event(self, name):
