@@ -43,7 +43,6 @@ static_commands = {
 commands = {
     "zalgo": modules.Zalgo(),
     "flip": modules.Flip(),
-    "countdown": modules.Countdown(),
     "groups": modules.Groups(),
     "about": modules.About(),
     "xkcd": modules.XKCD(),
