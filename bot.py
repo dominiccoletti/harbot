@@ -18,15 +18,13 @@ static_commands = {
     "ping": "Pong!",
 	"sharp": ("", "https://i.groupme.com/960x960.jpeg.83b694dec83a40629c3ef63053cedf83.large"),
     "sam": "❗❗❗N O 💪 F L E X 💪 Z O N E ❗❗❗",
-    "petition": "https://www.change.org/p/columbia-university-undergraduate-admissions-officers-let-dominic-coletti-in-off-the-columbia-waitlist?source_location=petitions_browse",
-    "meetup": ("", "https://i.groupme.com/750x1200.jpeg.b0ca5f6e660a4356be2925222e6f8246.large"),
     "quack": "quack",
-    "test": "https://erikboesen.com/yalepuritytest",
+    "test": "http://ricepuritytest.com",
     "dislike": "👎😬👎\n 🦵🦵",
     "shrug": r"¯\_(ツ)_/¯",
     "snort": "😤",
     "oh": ("", "https://i.groupme.com/766x750.jpeg.9209520c57e848369444ca498e31f90a.large"),
-    "roarlionroar": "Roar, Lion, Roar\nAnd wake the echoes of the Hudson Valley\nFight on to victory evermore\nWhile the sons of Knickerbocker rally round\nColumbia! Columbia!\nShouting her name forevermore\n\nRoar, Lion, Roar\nFor Alma Mater on the Hudson Shore",
+    "victors": "Hail! To the Victors Valiant\nHail! To the Conquering Heroes\nHail! Hail! To Michigan\nThe Leaders and Best\n\nHail! To the Victors Valiant\nHail! To the Conquering Heroes\nHail! Hail! To Michigan\nThe Champions of the West",
     "popcorn": "https://www.youtube.com/watch?v=9nwOm4AAXwc",
     "bang": ("", "https://i.groupme.com/720x1440.png.c76127a21867451093edd11bbb09d75d.large"),
     "oof": ("Oh?", "https://i.groupme.com/1500x1125.jpeg.9b2c341aa9854831ab2525d7e21e974a.large"),
@@ -151,7 +149,7 @@ def webhook():
                     advice = ""
                 reply(f"Command not found. {advice}Use !help to view a list of commands.", group_id)
 
-        if "thank" in text.lower() and "columbot" in text.lower():
+        if "thank" in text.lower() and "harbot" in text.lower():
             reply("You're welcome, " + forename + "! :)", group_id)
     if message["system"]:
         for option in system_responses:
