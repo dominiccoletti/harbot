@@ -11,7 +11,7 @@ class Welcome(System):
 
     def response(self, query, message):
         names = ", ".join([name.split(" ", 1)[0] for name in self.get_names(query)])
-        return "👋 Welcome " + names + "! We're happy to have you. I'm Columbot, a bot for the Columbia 2023 GroupMe. Type !help to see what I can do. Go Lions!"
+        return "👋 Welcome " + names + "! We're happy to have you. I'm Harbot, a bot for the 〽️ichigan 2023 GroupMe. Type !help to see what I can do. Go Blue!"
 
     def get_names(self, query: str) -> str:
         """
