@@ -1,7 +1,7 @@
 # Harbot
 [![Build Status](https://travis-ci.org/ErikBoesen/Yalebot.svg?branch=master)](https://travis-ci.org/ErikBoesen/Yalebot)
 
-> A GroupMe chatbot for the 〽️ichigan Class of 2023 group.
+> A GroupMe chatbot for the 〽️ichigan Class of 2024 group.
 
 ![Screenshot](screenshot.png)
 
