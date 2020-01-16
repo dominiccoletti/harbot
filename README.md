@@ -25,7 +25,7 @@ heroku config:set GROUPME_ACCESS_TOKEN=abcdef12345  # obtained from dev.groupme.
 After that, simply push the code via Heroku CLI and the bot will launch.
 
 ## Authorship
-Harbot is maintained by [Dominic Coletti](https://github.com/dominiccoletti). Credit goes to [Erik Boesen](https://github.com/ErikBoesen) for Harblt, a modified version of Yalebot.
+Harbot is maintained by [Dominic Coletti](https://github.com/dominiccoletti). Credit goes to [Erik Boesen](https://github.com/ErikBoesen) for Harbot, a modified version of Yalebot.
 
 ## License
 [GPL](LICENSE)
