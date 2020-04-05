@@ -33,7 +33,8 @@ static_commands = {
     "chike": ("", "https://i.groupme.com/1021x1400.jpeg.70192657c76745ab809357d0512d4951.large"),
     "ohno": ("", "https://i.groupme.com/1280x720.jpeg.f7c11a529a3b4a7195f71fa6be5ebfef.large"),
     "pressed": ("", "https://i.groupme.com/540x719.jpeg.2229bdb9f15247a7a112ac0be95e065a.large"),
-    "docschedule": ("https://undergrad.admissions.columbia.edu/welcome/visit/columbia-college-days-campus", ""),
+    "coronavirus": ("https://coronavirus.umich.edu", ""),
+    "covid": ("https://coronavirus.umich.edu", ""),
     "flex": "👮🏽🚨🚔 PULL OVER 👮🏽🚨🚔\n\n😤Put your hands behind your back😤\n\n🗣I'm taking you into custody🗣\n\n📝And registering you as a📝\n\n🔥😩FLEX OFFENDER😩🔥",
 }
 
